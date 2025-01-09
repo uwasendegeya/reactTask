@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div><h1>Incrementation and Decrementation</h1></div>
+    <div>
+        <button onClick="handleIncrement()">increment</button>
+        <button name="count" id="count">0</button> 
+        <button onClick="handleDecrement()">decrement</button>
+    </div>
+    <script>
+        function handleIncrement() {
+            let countElement = document.getElementById("count");
+            let count = parseInt(countElement.textContent);
+            count++; 
+            countElement.textContent = count;
+        }
+
+        function handleDecrement() {
+            let countElement = document.getElementById("count");
+            let count = parseInt(countElement.textContent); 
+            count--; 
+            countElement.textContent = count;
+                }
+    </script>
+</body>
+</html>
