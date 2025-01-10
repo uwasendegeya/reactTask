@@ -1,0 +1,143 @@
+.header{
+    background-color:white;
+    text-align: center;
+    opacity: 2;
+    width: 50%;
+    margin-left: 7cm;
+}
+h1{
+color:rgb(202, 148, 148);
+background-color: rgb(201, 201, 167);
+height: 5rem;
+
+}
+ul li{
+    display:inline-flex;
+    color: rgb(11, 11, 11);
+    text-decoration: none;
+    padding-left: 8cm;
+    margin-left: 1rem;
+    font-size: 22px;
+
+}
+.text input{
+width:15cm;
+margin-left: 7cm;
+background-color: rgb(153, 153, 92);
+padding: 10px;
+border: none;
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+outline: none;
+}
+fieldset{
+    width: 49%;
+    margin-left: 7cm;
+    background-color:rgb(201, 201, 167);
+    height: 7cm ;
+    border-radius: 0.5cm;
+    margin-top: 1cm;
+}
+
+fieldset form input{
+    margin-top: 15px;
+}
+button{
+    background-color:rgb(108, 108, 171);
+    opacity: 0.8cm;;
+    width:1cm;
+    padding: 10px;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.personal{
+    border-bottom: 3px solid grey;
+    font-size: 20px;
+}
+.proffessional{
+    border-bottom: 3px solid grey;
+    width: 5px;
+    /*color: black;*/
+    font-size: 20px;
+}
+h4{
+    margin-left: 500px;
+    margin-top: 45px;
+    color: rgb(188, 146, 131);
+}
+
+.tabs{
+    margin-top: -2rem;
+    background-color: white;
+    width: 100%; 
+}
+#trash{
+    float: inline-end;
+
+}
+/*.text{
+    width: 5500px;
+}*/
+
+nav ul {
+    list-style: none;
+    margin-left:26PX;
+font-size:14px;   
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    color: #020000;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 8, 8);
+}
+nav ul li a:hover{
+    color: orangered;
+}
+.search{
+width: 330px;
+float: left;
+margin-left: 970px;
+color: rgb(18, 14, 14);
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orangered;
+    /* margin-top: 13px; */
+    color: #0a0a0a;
+    border-right:none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius:5px ;
+    border-top-left-radius: 5px;
+    
+}
+.btn{
+width: 100px;
+height: 40px; 
+background-color: orangered;
+border: 2px solid rgb(101, 79, 71);
+/* margin-top: 2px; */
+color: rgb(20, 19, 19);
+font-size: 13px;
+border-bottom-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+.btn :focus{
+    outline: none;
+}
+.btn :focus{
+    outline: none;
+}

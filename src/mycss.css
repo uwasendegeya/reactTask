@@ -1,0 +1,33 @@
+
+body {
+  background-image: linear-gradient(to right, green, blue, green);
+  min-height: 100vh;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin-left: 420px;
+  margin-top: 150px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: grey;
+}
+
+.counter-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.counter-value {
+  font-size: 2rem;
+  margin: 0 10px; 
+  background-color: grey; 
+}
